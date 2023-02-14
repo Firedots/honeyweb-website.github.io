@@ -10,6 +10,13 @@ a {text-decoration: none;}
 
 li {list-style-type: none;}
 
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #a3a3a3;
+  font-size: 17px;
+}
+
 h1, h2, h3, a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -25,7 +32,7 @@ h3 {
   font-size: 40px; padding-top: 8%;
 }
 
-h4, p {
+h4 {
   font-family: 'Nunito', serif;
     color: #494949;
 }
@@ -85,24 +92,21 @@ padding-top: 5px;
 
 /**Privacy Policy***************/
 
-#privacypolicy {
-background: url(img/Honeyweb_Preview1.png);
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
+body{
+  background-color: #242424;
 }
 
-#privacypolicy h1 {
+#privacypolicy_website h1 {
 margin: 240px auto 0 auto;
 }
 
-#privacypolicy img {
+#privacypolicy_website img {
   width: 32px;
   margin-top: 150px;
   opacity: 0.7;
 }
 
-#privacypolicy img:hover {
+#privacypolicy_website img:hover {
   opacity: 1;
 }
 
