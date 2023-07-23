@@ -1,52 +1,293 @@
- <!Doctype html>
- <html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Honeyweb</title>
 
-  <title>Honeyweb Client | Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+</head>
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <div class="modal" id="modal-agree-download" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <a href="#" class="close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        <h5 class="modal-title">Honeyweb Privacy Policy</h5>
+        <p>
+          By clicking Download you automatically accept our <a href="#modal-privacy-policy" target="_blank" class="hyperlink">Privacy Policy</a>.
+        </p>
+        <div class="text-right mt-20">
+          <a href="#" class="btn mr-5" role="button">Close</a>
+          <a href="https://www.dropbox.com/s/8vekg3iwpea34t1/HoneywebSetup.exe?dl=1" class="btn btn-primary" role="button">Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ie-scroll-fix" id="modal-privacy-policy" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content w-600">
+        <a href="#" class="close" role="button" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+        <h4 class="font-weight-medium">
+            Privacy Policy for the Website
+          </h4>
+          <p>Thank you for visiting our website. We value your privacy and want to be transparent about the data we collect, how we use it, and your rights to control your personal information.</p>
+    
+          <h4 class="font-weight-light">
+          Data Collection:
+          </h4>
+          <p>We do not collect any personal information from you when you visit our website or download a file. We do not use cookies or any other tracking technology to monitor your browsing activities.</p>
+    
+          <h4 class="font-weight-light">
+          Data Usage:
+          </h4>
+          <p>Since we do not collect any personal information, we do not use your data for any purpose, including marketing or advertising.</p>
+    
+          <h4 class="font-weight-light">
+          Third-Party Links:
+          </h4>
+          <p>Our website may contain links to third-party websites, which may have their own privacy policies. We do not have control over these websites, and we are not responsible for the content or the privacy practices of these sites.</p>
+    
+          <h4 class="font-weight-light">
+          Your Rights:
+          </h4>
+          <p>As we do not collect any personal information, you do not have to worry about exercising any rights regarding your personal data. However, if you have any questions or concerns about our privacy policy, please feel free to contact us.</p>
+    
+          <h4 class="font-weight-light">
+          Changes to Privacy Policy:
+          </h4>
+          <p>We reserve the right to change our privacy policy at any time without notice. Any changes will be posted on this page.</p>
+          <p>By accessing and using our website, you agree to our privacy policy.</p>
 
-<link rel ="stylesheet" type="text/css" href="style.css">
+          <br>
 
-<link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    </head>
-
-    <body>
-
-<!-- Header ------------>
-
-<header>
-<div>
-  <div id="logo">
-  <a href="index.html"></a>
-  <img src="img/Logo.png" alt="Logo">
-  </a>
+          <h4 class="font-weight-medium">
+          Privacy Policy for the Honeyweb Application / Platform:
+          </h4>
+          <p>At Honeyweb, we respect your privacy and are committed to protecting your personal information. This Privacy Policy describes how we collect, use, and disclose your information when you use our platform named Honeyweb.</p>
+          
+          <h4 class="font-weight-light">
+          Personal Information Collection:
+          </h4>
+          <p>When you create an account on Honeyweb, we save your email, username, and password. This information is solely for identification purposes, and we do not share it with any third-party vendors.</p>
+          
+          <h4 class="font-weight-light">
+          Messaging Data:
+          </h4>
+          <p>We do not collect or store any messages. All this data is only stored on your device and is not accessible by us.</p>
+      
+          <h4 class="font-weight-light">
+          Watch Party Data:
+          </h4>
+          <p>The watchparty feature in Honeyweb uses YouTube as a third-party service. However, please note that we have no control over the data collection practices of YouTube.<br> We encourage you to review YouTube's privacy policy before using the watch party feature. The watchparty data (Duration, Title from the current video) is only stored while you host an watchparty.<br> No watchparty data is collected by us.</p>
+      
+          <h4 class="font-weight-light">
+          Gaming Companion Data:
+          </h4>
+          <p>At our platform, we have introduced an exciting new feature that allows users to register with their existing Honeyweb-Account and enhance their profile with two additional pieces of information: their favorite game and some additional personal details.<br> <br> We store the necessary information required for registration, such as the user's existing Honeyweb-Account details, favorite game, and additional information about themselves. This data is securely managed and used solely within the confines of the feature, allowing users to find and connect with others who align with their gaming interests.</p>
+      
+          <h4 class="font-weight-light">
+          Avatar Image Upload:
+          </h4>
+          <p>For avatar image-uploads Honeyweb uses Imgur as a third-party service. However, please note that we have no control over the data collection practices of Imgur.<br> We encourage you to review Imgur's privacy policy before using the upload feature. We only store the uploaded Avatar-URL to make this function work.<br> No other data is collected by us.</p>
+      
+          <h4 class="font-weight-light">
+          Friends List Data:
+          </h4>
+          <p>We store your friends list for safety and better accessibility for you. Only the unique IDs of your friends are stored in the friends list, and no usernames or passwords are included.</p>
+      
+          <h4 class="font-weight-light">
+          Offline Message Storage:
+          </h4>
+          <p>We store incoming messages when you are offline on our servers, and these messages are automatically deleted once you come online.</p>
+      
+          <h4 class="font-weight-light">
+          Online Status:
+          </h4>
+          <p>We provide you with the ability to set your online status as offline, online, or do not disturb. This information is solely used to notify your contacts about your status and is not collected or stored by us.<br>Note that we automatically set your status to online or doNotDisturb (if doNotDisturb is activated) when you log in.</p>
+      
+          <h4 class="font-weight-light">
+          Right to Access and Delete Your Data / Account:
+          </h4>
+          <p>You have the right to access, modify, and delete your personal data from our app. You can delete your account, which will permanently delete all data associated with your account.<br> If you wish to access, modify or delete your data, please contact us at <a href="mailto:contact.honeyweb@gmail.com">contact.honeyweb@gmail.com</a>, and we will assist you in the process.</p>
+      
+          <h4 class="font-weight-light">
+          Third-Party Access:
+          </h4>
+          <p>We do not share any of your information with third-party vendors, except when required by law.</p>
+      
+          <h4 class="font-weight-light">
+          Information Security:
+          </h4>
+          <p>We take appropriate security measures to protect your information from unauthorized access or disclosure.</p>
+      
+          <h4 class="font-weight-light">
+          Children's Privacy:
+          </h4>
+          <p>Our app is not intended for use by individuals under the age of 13.<br> We do not knowingly collect personal information from children under 13. If you become aware that a child under 13 has provided us with personal information, please contact us immediately.</p>
+      
+          <h4 class="font-weight-light">
+          Changes to the Privacy Policy:
+          </h4>
+          <p>We reserve the right to modify this Privacy Policy at any time. Any changes will be posted on this page. If we make any material changes, you will be notified on the platform.</p>
+      
+          <h4 class="font-weight-light">
+          Contact:
+          </h4>
+          <p>If you have any questions or concerns about our Privacy Policy, please contact us at <a href="mailto:contact.honeyweb@gmail.com">contact.honeyweb@gmail.com</a>.</p>
+      </div>
+    </div>
   </div>
 
-<nav id="main-nav">
-
-  <ul>
-    <li><a href="https://honeywebclient.itch.io/honeyweb">Download on Itch.io</a></li>
-    <li><a href="https://www.dropbox.com/s/8vekg3iwpea34t1/HoneywebSetup.exe?dl=1">Direct Download</a></li>
-    <li><a href="privacy_policy.html">Privacy Policy</a></li>
-    <li><a href="mailto:contact.honeyweb@gmail.com">Contact</a></li>
-    </ul>
+  <div class="page-wrapper with-navbar">
+    <div class="sticky-alerts"></div>
+    <nav class="navbar">
+          <a href="#" class="navbar-brand">
+            <img src="img/logo2.png" alt="">
+            Honeyweb
+          </a>
+          <ul class="navbar-nav d-none d-md-flex">
+            <li class="nav-item">
+              <a href="https://honeywebclient.itch.io/honeyweb" target="_blank" class="nav-link">Download on itch.io</a>
+            </li>
+            <li class="nav-item">
+              <a href="#modal-agree-download" class="nav-link">Direct Download</a>
+            </li>
+            <li class="nav-item">
+                <a href="#modal-privacy-policy" class="nav-link">Privacy Policy</a>
+            </li>
+          </ul>
+          <form class="form-inline d-none d-md-flex ml-auto" action="mailto:contact.honeyweb@gmail.com" method="...">
+            <button class="btn btn-primary" type="submit">Contact</button>
+            <button class="btn btn-square btn-rounded" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+                <i class="fa fa-moon" aria-hidden="true"></i>
+            </button>
+          </form>
+          <div class="navbar-content d-md-none ml-auto">
+            <div class="dropdown with-arrow">
+              <button class="btn" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1">
+                <a href="https://honeywebclient.itch.io/honeyweb" target="_blank" class="dropdown-item">Download on itch.io</a>
+                <a href="#modal-agree-download" class="dropdown-item">Direct Download</a>
+                <a href="#modal-privacy-policy" class="dropdown-item">Privacy Policy</a>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-content">
+                  <form action="mailto:contact.honeyweb@gmail.com" method="...">
+                    <button class="btn btn-primary btn-block" type="submit">Contact</button>
+                    <br>
+                    <button class="btn btn-square btn-rounded" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+                        <i class="fa fa-moon" aria-hidden="true"></i>
+                    </button>
+                  </form>
+                  <br>
+                  <div>Made With Heart ❤️ by <a target="_blank" href="https://twitter.com/firedotss">Firedots</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
     </nav>
-</header>
-
-<!-- Home ------------>
-
-  <section id="home">
-  <style>
-  video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-</style>
-
-</a>
-</section>
+    <div class="content-wrapper">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="w-400 mw-full">
+            <div class="card p-0">
+              <img src="img/preview1.PNG" class="img-fluid rounded-top" alt="...">
+              <div class="content">
+                <h2 class="content-title">
+                  Lightweight User Interface
+                </h2>
+                <p class="text-muted">
+                    Gone are the days of cluttered screens and overwhelming features. Our lightweight UI streamlines the user's journey, presenting only the most relevant and essential elements.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="w-400 mw-full">
+            <div class="card p-0">
+              <img src="img/preview2.PNG" class="img-fluid rounded-top" alt="...">
+              <div class="content">
+                <h2 class="content-title">
+                  Friends at a Glance
+                </h2>
+                <p class="text-muted">
+                  Our UUID-based system guarantees precision and accuracy, simplifying friend connections. Eliminate misspellings and confusion with usernames. Enjoy messaging, watchpartys, and other activities together.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="w-400 mw-full">
+            <div class="card p-0">
+              <img src="img/preview3.PNG" class="img-fluid rounded-top" alt="...">
+              <div class="content">
+                <h2 class="content-title">
+                  Profile Customization
+                </h2>
+                <p class="text-muted">
+                  Customize your profile with custom backgrounds and badges, reflecting your unique personality and achievements. Stand out from the crowd and make a lasting impression on our platform. Embrace self-expression and let your profile shine with a touch of your individuality.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="w-400 mw-full">
+            <div class="card p-0">
+              <img src="img/preview4.PNG" class="img-fluid rounded-top" alt="...">
+              <div class="content">
+                <h2 class="content-title">
+                  Gaming Companion
+                </h2>
+                <p class="text-muted">
+                  Discover your perfect gaming companions! Our Gaming Companion feature connects you with like-minded players, making it easy to find new people who share your passion for games. Join now and level up your gaming experience!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="w-400 mw-full">
+            <div class="card p-0">
+              <img src="img/preview5.PNG" class="img-fluid rounded-top" alt="...">
+              <div class="content">
+                <h2 class="content-title">
+                  Watchparty Mode
+                </h2>
+                <p class="text-muted">
+                  Experience the ultimate Watch Party! Our feature synchronizes YouTube videos with your friends, bringing you closer together. Enjoy shared entertainment and lively discussions in real-time. Let the fun begin!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="w-400 mw-full">
+            <div class="card p-0">
+              <img src="img/preview6.PNG" class="img-fluid rounded-top" alt="...">
+              <div class="content">
+                <h2 class="content-title">
+                  Universal Launcher
+                </h2>
+                <p class="text-muted">
+                  Simplify your digital life with our Universal Launcher. Seamlessly add all your applications to one centralized launcher for easy access and a clutter-free desktop. Organize, streamline, and boost productivity now!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+</html>
